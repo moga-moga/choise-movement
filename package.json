@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc && webpack && gulp minify-js && gulp minify-scss"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,20 @@
   "bugs": {
     "url": "https://github.com/moga-moga/choise-movement/issues"
   },
-  "homepage": "https://github.com/moga-moga/choise-movement#readme"
+  "homepage": "https://github.com/moga-moga/choise-movement#readme",
+  "dependencies": {
+    "moga-dom": "github:moga-moga/moga-dom"
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.3.29",
+    "@types/node": "^10.12.18",
+    "gulp": "^4.0.0",
+    "gulp-clean-css": "^4.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.1",
+    "typescript": "^3.2.4",
+    "webpack": "^4.29.0",
+    "webpack-cli": "^3.2.1"
+  }
 }
