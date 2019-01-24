@@ -1,0 +1,19 @@
+{
+  "name": "choise-movement",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moga-moga/choise-movement.git"
+  },
+  "author": "Akira Mineshima",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/moga-moga/choise-movement/issues"
+  },
+  "homepage": "https://github.com/moga-moga/choise-movement#readme"
+}
